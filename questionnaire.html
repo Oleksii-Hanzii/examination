@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Форма для вступу в ЗСУ
+	</title>
+</head>
+<body>
+	<header align="center" class="questionnaire-header" role="header">
+		<h1 сlass="questionnaire-main-title"> 
+			Хочу приєднатися до ЗСУ
+		</h1>
+	</header>
+	<main role="main" class="container">
+		<form name='questionnaire' action="https://UkranianArmedForces.com.ua" method="POST">
+		<h3 flign="left">
+		<span>
+			Анкета для шукача
+		</span>
+		</h3>
+		<fieldset>
+			<legend>
+				Особисті дані
+			</legend>
+				<input placeholder="Ім'я" type="text" name="name">
+					<br>
+				<input placeholder="По-батькові" type="text" name="name">
+					<br>
+				<input placeholder="Призвище" type="text" name="name">
+					<br>				
+				<input placeholder="Номер телефону +380(..)" type="text" name="phone">
+					<br>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Завантажте своє фото
+			</legend>				
+				<input type="file" name="photo">
+		</fieldset>
+		<fieldset>
+			<legend>
+				Дата народження
+			</legend>
+				<input placeholder="Дата народження" type="date" id="date" name="date">
+		</fieldset>		
+		<fieldset>	
+			<button type='submit' value="send">
+				Відправити дані
+			</button>
+			<button type='reset' value="reset">
+				Скинути дані
+			</button>
+		</fieldset>
+	</form>
+	</main>
+	<footer class="questionnaire-footer" role="footer">
+		<a>
+			Всі права захищєні воїнами АТО (с)
+		</a>		
+	</footer>
+</body>
+</html>

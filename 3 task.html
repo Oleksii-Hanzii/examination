@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="utf-8">
+	<title>Бляха під пригон для АТО\ООС</title>
+</head>
+<!--Виконав Ганзій О.Г.-->
+<body>
+	<header align=center class="header" role="header">
+		<img src="https://topgir.com.ua/wp-content/uploads/2014/06/10450784_715897605133195_5663980151849846420_n.jpg" width="640" height="480" alt="фото автомобіля">
+		<h1 class="main_title">Обираємо бляху на свій смак поки лавочку не прикрили!
+		</h1>
+		<hr>
+	</header>
+	<main role=main class="container">
+		<h2>Для того щоб обрати потрібний автомобіль заповніть анкету
+		</h2>			
+		<form name='questionnaire' action="https://blyaxa_ato.com" method="POST">
+			<fieldset>
+				<legend>
+					Оберіть країну з якої гнати бляху
+				</legend>
+				<select name="country" multiple size="4" >
+					<option value="deutschland">Дойчьлянд</option>
+					<option value="Hungary">Мадярія</option>
+					<option value="Letuva">Лєтува</option>
+					<option value="Poland">Поляндія</option>
+					<option value="France">Франція</option>
+					<option value="Romania">Румунія</option>
+					<option value="Italy">Італія</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Оберіть марку автомобіля
+				</legend>
+				<select name="auto" multiple size="4">
+					<option value="volkswagen">Хвольцвагєн</option>
+					<option value="skoda">Шкода</option>
+					<option value="audi">Авді</option>
+					<option value="seat">Сеат</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Оберіть потрібний тип кузова автомобіля
+				</legend>
+				<select name="seting" multiple size="4">
+					<option value="sedan">Седан</option>
+					<option value="hathback">Хетчбек</option>
+					<option value="universal">Універсал</option>
+					<option value="minivan">Мінівен</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Особисті дані
+				</legend>
+				<input placeholder="Ім'я" type="text" name="name"><br>
+				<input placeholder="По-батькові" type="text" name="name"><br>
+				<input placeholder="Призвищє" type="text" name="name"><br>
+				<input placeholder="Номер телефону +380(..)" type="text" name="phone"><br>
+				<input placeholder="Номер посвідчення УБД" type="text" name="war_pasport"><br>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Чи завозили раніше євробляхи?
+				</legend>
+					<label>
+						Так
+						<input type="radio" name="blyaxa" id="blyaxa_yes" value="yes" checked>
+					</label>
+					<label>
+						Ні
+						<input type="radio" name="blyaxa" id="blyaxa_no" value="no">
+					</label>
+			</fieldset>
+			<fieldset>
+				<button type="submit" value="send">
+					Відправити дані
+				</button>
+				<button type="reset" value="reset">
+					Скинути дані
+				</button>
+			</fieldset>
+		</form>
+	</main>
+<footer class="footer" role="footer">
+	<p>Копірайт (с)</p>
+</footer>
+</body>
+</html>
